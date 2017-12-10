@@ -3,7 +3,6 @@ Feature: Homepage
 As a user
 I want to be able to use the homepage
 
-
 Scenario: If I click the experience link I should be directed to the experience page
   Given I am on the homepage
   When I click on the experience link

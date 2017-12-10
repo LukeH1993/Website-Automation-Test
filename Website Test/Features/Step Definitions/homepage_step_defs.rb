@@ -1,5 +1,5 @@
 Given ("I am on the homepage") do
-  @site_test = 
+  @site_test = Homepage.new
 end
 
 When ("I click on the experience link") do
