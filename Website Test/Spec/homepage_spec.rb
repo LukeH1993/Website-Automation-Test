@@ -14,4 +14,8 @@ describe 'homepage' do
     @site_test.homepage.visit_github
   end
 
+  it 'should have clearly visible profile image' do
+    @site_test.homepage.find_image.visible?
+  end
+
 end
